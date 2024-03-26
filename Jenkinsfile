@@ -4,10 +4,10 @@ pipeline {
             TIME_ZONE = 'Asia/Seoul'
             PROFILE = 'local'
             AWS_CREDENTIAL_NAME = 'aws-key'
-            DEPLOY_CREDENTIAL_NAME = 'deploy-ssh-key'
+            DEPLOY_CREDENTIAL_NAME = 'seoulit-ssh-ke'
             REGION="ap-northeast-2"
-            ECR_PATH = '590183823453.dkr.ecr.ap-northeast-2.amazonaws.com'
-            IMAGE_NAME = '590183823453.dkr.ecr.ap-northeast-2.amazonaws.com/board'
+            ECR_PATH = '424230631695.dkr.ecr.ap-northeast-2.amazonaws.com'
+            IMAGE_NAME = '424230631695.dkr.ecr.ap-northeast-2.amazonaws.com/board'
             DEPLOY_Host="54.180.104.255"
         }
     stages {
